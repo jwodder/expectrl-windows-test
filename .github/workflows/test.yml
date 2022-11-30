@@ -35,7 +35,7 @@ jobs:
       - name: Build crate
         run: cargo build --verbose
 
-      - name: Test crate
-        run: cargo test --verbose
+      - name: Run crate
+        run: cargo run
 
 # vim:set et sts=2:
